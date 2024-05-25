@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サンプルコード2</title>
+</head>
+<body>
+    <!-- テキスト入力フォーム -->
+    <input type="text" id="userName" placeholder="名前を入力してください"/>
+    <!-- 表示ボタン -->
+    <button onclick="displayMessage()">表示</button>
+    <!-- メッセージ表示エリア -->
+    <p id="greetingMessage"></p>
+
+    <script>
+        // テキスト入力フォームの値を取得する関数
+        function getUserName() {
+            return document.getElementById('userName').value;
+        }
+
+        // メッセージを生成して表示する関数
+        function displayMessage() {
+            let userName = getUserName;
+            console.log(userName);
+            let message = "こんにちは、" + userName + "さん！";
+            document.getElementById('greetingMessage').textContent = message;
+        }
+    </script>
+</body>
+</html>

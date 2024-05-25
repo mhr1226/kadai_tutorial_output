@@ -1,0 +1,32 @@
+@use "../../../default_mixin_setting/_main_mixin" as *;
+
+body{
+  font-size:6em;
+  text-align:center;
+}
+
+#count{
+  margin:0;
+  color:#888;
+}
+
+#wrap{
+  background-color:#666;
+  color:#fff; 
+  @include space-setting(20px auto 0 auto,80px 40px);
+
+}
+
+.typed{
+  color:lightgreen;
+}
+
+.mistyped{
+  background-color:red !important;
+}
+
+#count,#wrap{
+  font-weight:bold;
+}
+
+

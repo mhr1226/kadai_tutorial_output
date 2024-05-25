@@ -1,0 +1,2 @@
+.body-grid{display:grid;grid-template:"head" "main" "foot";min-height:100vh}body{font-size:6em;text-align:center}#count{margin:0;color:#888}#wrap{background-color:#666;color:#fff;margin:20px auto 0 auto;padding:80px 40px}.typed{color:#90ee90}.mistyped{background-color:red !important}#count,#wrap{font-weight:bold}
+/*# sourceMappingURL=style.SCSS.min.css.map */
